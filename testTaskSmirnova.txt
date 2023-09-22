@@ -1,0 +1,99 @@
+Scenario A
+Test case 1 
+
+Title: Check the [Video] filter button is highlighted 
+
+Steps to reproduce:
+1. Go to the https://www.google.com/
+2. Put «prowly» to the search field
+3. Click Enter on the keyboard
+4. Click [Video] button
+
+Expected result: the [Video] filter button is highlighted - text and background are blue 
+
+Test case 2
+
+Title: Check the [Video] filter button filters correcly
+
+Steps to reproduce:
+1. Go to the https://www.google.com/
+2. Put «prowly» to the search field
+3. Click Enter on the keyboard
+4. Click [Video] button
+
+Expected result: the [Video] filter button is highlighted - text and background are blue, the results are displayed according to the filter - with video only.
+
+Test case 3
+
+Title: Check the [News] filter button 
+
+Steps to reproduce:
+1. Go to the https://www.google.com/
+2. Put «prowly» to the search field
+3. Click Enter on the keyboard
+4. Click [News] button
+
+Expected result: the [News] filter button is highlighted - text and background are blue ; the results are displayed on the page, includes only news sources about Prowly
+
+
+Scenario B
+
+Test case 1 
+
+Title: Check filtering google results by the date
+
+Test data: keyword for the search: «prowly» ; date period : from 9/1/2023 to 9/1/2023
+
+Steps to reproduce:
+1. Go to the https://www.google.com/
+2. Put keyword to the search field
+3. Click Enter on the keyboard
+4. Click [Tools] button
+5. Click [Any time] button
+6. Click [Custom Date Range] 
+7. Choose the date period 
+8. Click [Search]
+
+Expected result: the results are displayed correctly according to the date filter - the date is on the beginning for the every results preview
+
+Post-condition: click on [Reset settings] button
+
+Test case 2
+
+Title: Check filtering google results by 1 hour
+
+Test data: keyword for the search: «prowly» ; 
+
+Steps to reproduce:
+1. Go to the https://www.google.com/
+2. Put keyword to the search field
+3. Click Enter on the keyboard
+4. Click [Tools] button
+5. Click [Any time] button
+6. Click [Last hour] 
+
+Expected result: the results are displayed correctly according to the  filter - no earlier than 60 minutes ago
+
+Post-condition: click on [Reset settings] button
+
+Test case 3
+
+Title: Check filtering google results by last day
+
+Test data: keyword for the search: «prowly» ; 
+
+Steps to reproduce:
+1. Go to the https://www.google.com/
+2. Put keyword to the search field
+3. Click Enter on the keyboard
+4. Click [Tools] button
+5. Click [Any time] button
+6. Click [Last 24 hours] 
+
+Expected result: the results are displayed correctly according to the  filter - no earlier than 24 hours ago
+
+Post-condition: click on [Reset settings] button
+
+
+
+
